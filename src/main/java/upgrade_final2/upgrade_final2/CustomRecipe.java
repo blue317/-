@@ -64,7 +64,7 @@ public class CustomRecipe implements Listener {
         ShapedRecipe recipe = new ShapedRecipe(key, customShard);
         recipe.shape("LLL", "LBL", "LLL");
         recipe.setIngredient('L', Material.LAPIS_LAZULI); // 라피스 블록 변경
-        recipe.setIngredient('B', Material.BOOK);
+        recipe.setIngredient('B', Material.Diamond);
 
         // Bukkit을 통해 레시피 추가
         Bukkit.addRecipe(recipe);
